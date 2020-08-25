@@ -2,7 +2,7 @@
 
 ## Tipo Booleano
 
-- **boolean**: armazenado em 1 bit, e pode assumir dois valores: **false** e **true**
+- **boolean**: armazenado em 1 BIT, e pode assumir dois valores: **false** e **true**
 
 ## Tipos Numéricos
 
@@ -31,7 +31,7 @@
 ### Tipos Numéricos Inteiros
 
 - **byte**: 
-    - 1 BYTE (ou 8 bits); no entanto, o bit mais à esquerda é usado para determinar o sinal (0positivo/1negativo); logo, o intervalo é de -128 à 127.
+    - 1 BYTE (ou 8 bits); no entanto, o bit mais à esquerda é usado para determinar o sinal (0 = positivo/1 = negativo); seu intervalo é de -128 à 127.
     - Se conseguíssemos usar todos os bits para representar o valor de um número, teríamos um intervalo de 0 à 255.
         - 00000000 ==> 0
         - 11111111 ==> 1+2+4+8+16+32+64+128 ==> 255
@@ -41,7 +41,7 @@
         - Lembrar que não faria sentido existir 00000000 e 10000000, pois não há zero positivo e zero negativo; Portanto, um desses valores é usado para 0, e o outro é usado como um valor negativo (que estende o intervalo de -127 para -128)
 
 - **short**:
-    - possui 16 bits (2 BYTES); o bit mais à esquerda é usado para determinar o sinal (0positivo/1negativo); logo, o intervalo é de -32768 à 32767
+    - possui 16 bits (2 BYTES); o bit mais à esquerda é usado para determinar o sinal (0 = positivo/1 = negativo); logo, o intervalo é de -32768 à 32767
         - 1111111111111111 ==> (1+2+4+8+16+32+64+128+256+512+1024+2048+4096+8192+16384)*(-1) ==> -32767
         - 0111111111111111 ==> 32767
         - 0000000000000000 ==> 0
