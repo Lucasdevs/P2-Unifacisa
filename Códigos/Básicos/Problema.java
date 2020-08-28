@@ -1,4 +1,4 @@
-package br.cesed.si.p2.uri;
+package br.cesed.si.p2.basicos;
 
 import java.util.Scanner;
 
