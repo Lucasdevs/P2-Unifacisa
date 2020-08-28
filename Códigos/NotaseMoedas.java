@@ -1,10 +1,13 @@
-package Codes;
+package br.cesed.si.p2.aloMundo;
+
+import java.util.Scanner;
 
 public class NotaseMoedas {
 	public static void main (String[] args) {
-        notas(50.75);
+        Scanner entrada = new Scanner(System.in);
+        val(entrada.nextDouble());
 	}
-    public static void notas(double val) {
+    public static void val (double val) {
         int notas100 = (int) (val / 100);
         val %= 100;
         int notas50 = (int) (val / 50);
