@@ -8,7 +8,7 @@ public class Problema6 {
 		Scanner entrada = new Scanner(System.in);
 		int cont = 0;
 		int cont2 = 0;
-		while(cont<5) {
+		while(cont<50) {
 			int valor = entrada.nextInt();
 			int val= valor%3;
 			if(val == 0 ) {
@@ -16,7 +16,7 @@ public class Problema6 {
 			}
 			cont+=1;
 		}
-		System.out.println("Soma dos Múltiplos de Três: "+cont2);
+		System.out.println("Soma dos MÃºltiplos de TrÃªs: "+cont2);
 				
 		}
 
