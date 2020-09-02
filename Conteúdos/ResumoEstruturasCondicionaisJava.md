@@ -8,6 +8,8 @@ Usamos if - else if - else quando precisamos fazer várias comparações. No exe
 
 - Exemplos:
 
+```java
+
 if(idade < 2)
   System.out.println("Indivíduo é um bebê");
 else if(idade < 12)
@@ -20,6 +22,7 @@ else if(idade < 60)
   System.out.println("Indivíduo é um adulto");
 else
   System.out.println("Indivíduo é um idoso");
+```
   
   
 # Switch-case:
@@ -28,7 +31,8 @@ O switch case é um pouco mais restrito do que comandos if else. Ele serve apena
 
 - Exemplos:
 
-switch (dia) {
+```java
+switch(dia) {
   case 1:
     System.out.println("Segunda-feira");
     break;
@@ -53,3 +57,4 @@ switch (dia) {
   default:
     System.out.println("O valor de dia não está entre 1 e 7.");
 }
+```
