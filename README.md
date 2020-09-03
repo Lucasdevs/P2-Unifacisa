@@ -4,7 +4,7 @@
 
 # Resumos
 
-[1 - Tipos Primitivos](Conteúdos/ResumoTiposPrimitivos.md)
+[1 - Tipos Primitivos](Conteúdos/ResumoTiposPrimitivos.md);
 [2 - Estruturas Condicionais](Conteúdos/ResumoEstruturasCondicionaisJava.md)
 [3 - Estruturas de Repetição](Conteúdos/ResumoEstruturasRepetição.md)
 [4 - Scanner](Conteúdos/ResumoScanner.md)
