@@ -4,15 +4,15 @@
 
 ## Resumos
 
-[Tipos Primitivos](Conteúdos/ResumoTiposPrimitivos.md)
+• [Tipos Primitivos](Conteúdos/ResumoTiposPrimitivos.md)
 
-[Estruturas Condicionais](Conteúdos/ResumoEstruturasCondicionaisJava.md)
+• [Estruturas Condicionais](Conteúdos/ResumoEstruturasCondicionaisJava.md)
 
-[Estruturas de Repetição](Conteúdos/ResumoEstruturasRepetição.md)
+• [Estruturas de Repetição](Conteúdos/ResumoEstruturasRepetição.md)
 
-[Scanner](Conteúdos/ResumoScanner.md)
+• [Scanner](Conteúdos/ResumoScanner.md)
 
-[Operadores Java](Conteúdos/ResumoOperadoresJava.md)
+• [Operadores Java](Conteúdos/ResumoOperadoresJava.md)
 
 ## Códigos
 
