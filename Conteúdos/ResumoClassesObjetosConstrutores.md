@@ -2,7 +2,7 @@
 
 As classes de programação são projetos de um objeto, aonde têm características e comportamentos, ou seja, permite armazenar propriedades e métodos dentro dela. Para construir uma classe é preciso utilizar o pilar da abstração. Uma classe geralmente representa um substantivo, por exemplo: uma pessoa, um lugar, algo que seja “abstrato”.
 
-• Características das classes
+• Características das Classes:
 
 - Toda classe possui um nome;
 - Possuem visibilidade, exemplo: public, private, protected;
@@ -47,5 +47,24 @@ Obs: todo objeto é algo que existe, uma coisa concreta.
 
 O construtor de um objeto é um método especial, pois inicializa seus atributos toda vez que é instanciado (inicializado).
 
-Toda vez que é digitada a palavra reservada ```javanew```, o objeto solicita para a memória do sistema armazená-lo, onde chama o construtor da classe para inicializar o objeto. A identificação de um construtor em uma classe é sempre o mesmo nome da classe.
+Toda vez que é digitada a palavra reservada NEW, o objeto solicita para a memória do sistema armazená-lo, onde chama o construtor da classe para inicializar o objeto. A identificação de um construtor em uma classe é sempre o mesmo nome da classe.
+
+• Exemplo:
+```java
+class ConstrutorProg{
+	private String nomeCurso;
+
+
+	public ConstrutorProg(String nome)
+	{
+		nomeCurso = nome;
+	}
+
+	public String getNome()
+	{
+		return "Nome do Curso retornado "+nomeCurso;
+	}
+
+}
+```
 
