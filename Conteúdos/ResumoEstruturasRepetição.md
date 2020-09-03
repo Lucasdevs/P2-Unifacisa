@@ -2,6 +2,8 @@
 
 # While
 
+Obs:É mais interessante usar quando não souber quantas repetições serão necessárias.
+
 ```java
 while(i<50) {
 			int valor = entrada.nextInt();
@@ -21,4 +23,14 @@ do {
 			}
 		}while(valor != 100);
  ```
+ 
+ # For
+ 
+ Obs:É mais interessante usar quando souber quantas repetições serão necessárias.
 		
+```java
+for (int i = 0; i < 5; i++) {
+  System.out.println(i);
+}
+ ```
+ 
