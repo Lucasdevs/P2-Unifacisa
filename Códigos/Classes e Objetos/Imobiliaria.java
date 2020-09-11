@@ -12,7 +12,7 @@ public class Imobiliaria {
 		System.out.println(imovel2+"\n");
 		System.out.println(imovel3+"\n");
 		System.out.println(imovel4+"\n");
-		System.out.println(imovel5+"\n");
+		System.out.println(imovel5);
 		
 	
 	}
