@@ -40,14 +40,14 @@ public class Imovel {
 		preco += metrosQuadrados*5000;
 		
 		switch(tipo) {
-		case "Prédio":
-			if(pavimentos >= 5) {
-				preco+=(2000*pavimentos)-8000;
-			}else {
-				preco+=0;
-			}
-		case "Casa":
-			preco+=0;
+		    case "Apartamento":
+		    	if(pavimentos >= 5) {
+		    		preco+=(2000*pavimentos)-8000;
+		    	}else {
+		    		preco+=0;
+		    	}
+		    case "Casa":
+		    	preco+=0;
 		}
 		
 		if(elevador)
