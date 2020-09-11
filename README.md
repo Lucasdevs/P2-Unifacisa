@@ -18,7 +18,5 @@
 
 ## Códigos
 
-• [Básicos](Códigos/Básicos)
-
-• [Classes e Objetos](Códigos/)
+• [Exercícios](Códigos/)
 
