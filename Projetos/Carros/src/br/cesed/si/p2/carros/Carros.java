@@ -68,8 +68,5 @@ public class Carros {
 		saida += "Nome: "+nome+", Marca: "+marca+", Cor: "+cor+", Portas: "+portas+", Vidro Elétrico: "+vidroEletrico+", Ar Condicionado: "+arCondicionado;
 		saida += ", Câmbio automático: "+cambioAutomatico+", Direção Elétrica: "+direcaoEletrica+", Preço: R$ "+calculaPreco();
 		return saida;
-		
-		
-		
 	}
 }
