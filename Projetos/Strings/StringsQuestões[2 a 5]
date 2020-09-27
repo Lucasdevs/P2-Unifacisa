@@ -1,0 +1,23 @@
+Lista Strings
+
+2-) Na primeira linha, quando criamos uma String, nós instanciamos um objeto da classe String, 
+Ao instanciarmos uma String sem a palavra new, então o Java tentará economizar memória, verificando 
+se já existe um objeto com aquele mesmo conteúdo criado. Se houver, ele reutiliza aquele objeto, 
+atribuindo seu endereço de memória à variável. Por outro lado, sempre que uma String for criada 
+usando explicitamente a palavra new, então independente haver um objeto String com aquele conteúdo 
+criado, será criado um novo objeto.
+
+3-) String pool é uma área de armazenamento no Java onde se alocam as strings. Ao instanciarmos
+uma String a JVM tentará economizar memória verificando se já existeum objeto com o mesmo conteúdo.
+Se houver, ele reaproveita aquele objeto, atribuindo seu endereço de memória à variável. Porém,
+sempre que uma String for criada usando explicitamente a palavra NEW, então independente de
+já haver um objeto String com aquele conteúdo criado, a JVM criará um novo objeto.
+
+4-) Strings são objetos imutáveis, logo, isso quer dizer que toda vez que você modifica uma String, na verdade,
+você cria um novo objeto String e o anterior ficará ocupando espaço na memória até o Coletor de Lixo do java ser
+executado e removê-lo. 
+
+5-)  As classe StringBuilder, por sua vez, podem ser utilizada para reduzir a criação de 
+objetos desnecessários na memória, possibilitando que uma mesma String seja modificada diversas vezes. Saber
+como funciona a criação de objetos String no pool e na memória, bem como a utilização e o resultado da execução 
+dos métodos desta classe melhora o desempenho do código, pois a String vai apenas sendo apenas incrementada. 
